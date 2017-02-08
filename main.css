@@ -1,0 +1,189 @@
+#gallery {
+  width: 900px;
+  height: 1200px;
+  margin: auto;
+  padding: 30px;
+}
+
+body {
+  height: 1200px;
+  background-image: url("images/bg.jpg");
+  background-repeat: repeat;
+}
+
+h1 {
+  font-family: century gothic;
+  font-size: 14px;
+  color: #70d8a6;
+  text-transform: uppercase;
+  text-shadow: 0 0 14px #5c7761;
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  font-size: 12px;
+  font-family: century gothic;
+  text-shadow: 0 0 14px #5c7761;
+}
+
+.pics {
+    margin: 5px;
+    border: 1px dashed #ccc;
+    float: left;
+    background-color: #ffffff;
+    width: 250px;
+    height: 350px;
+}
+
+.picsabso {
+    margin: 5px;
+    border: 1px dashed #ccc;
+    position: absolute;
+    background-color: #ffffff;
+    right: 350px;
+    top: 660px;
+    width: 250px;
+    height: 300px;
+}
+
+#row1 {
+  width: 900px;
+  margin:auto;
+  padding: 5px;
+}
+
+#row2 {
+  width: 900px;
+  margin:auto;
+  padding: 5px;
+}
+
+#row3 {
+  width: 900px;
+  margin:auto;
+  padding: 5px;
+}
+
+#header {
+  position: fixed;
+  z-index: 1;
+  right: 0;
+  top: 0;
+  left: 0;
+  padding: 0px;
+  margin-bottom: 5px;
+  background-color: #70d8a6;
+  font-family: century gothic;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: 0 0 14px #5c7761;
+  text-align: center;
+}
+
+#footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5px;
+  background-color: #70d8a6;
+  font-family: century gothic;
+  font-size: 12px;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-shadow: 0 0 14px #5c7761;
+  text-align: center;
+}
+
+@media (max-width: 750px) {
+
+  body {
+    background-image: url("images/bg2.jpg");
+    background-repeat: repeat;
+  }
+
+  h1 {
+    color: #4157ff;
+      }
+
+  #gallery {
+    width: 600px;
+    height: 2000px;
+    margin: auto;
+    padding: 30px;
+  }
+
+  #row1 {
+    width: 600px;
+    margin:auto;
+    padding: 5px;
+  }
+
+  #row2 {
+    width: 600px;
+    margin:auto;
+    padding: 5px;
+  }
+
+  #row3 {
+    width: 600px;
+    margin:auto;
+    padding: 5px;
+  }
+
+  #header {
+    z-index: 1;
+    background-color: #4157ff;
+}
+
+  #footer {
+    background-color: #4157ff;
+}
+
+@media (max-width: 500px) {
+
+  body {
+    background-image: url("images/bg3.jpg");
+    background-repeat: repeat;
+  }
+
+  h1 {
+    color: #000000;
+  }
+  #gallery {
+    width: 300px;
+    height: 3500px;
+    margin: auto;
+    padding: 30px;
+  }
+
+  #row1 {
+    width: 300px;
+    margin:auto;
+    padding: 5px;
+  }
+
+  #row2 {
+    width: 300px;
+    margin:auto;
+    padding: 5px;
+  }
+
+  #row3 {
+    width: 300px;
+    margin:auto;
+    padding: 5px;
+  }
+
+  #header {
+    z-index: 1;
+    background-color: #000000;
+}
+
+  #footer {
+    background-color: #000000;
+}
+
+}
